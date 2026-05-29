@@ -1,0 +1,13 @@
+[project]
+name = "docprompt"
+version = "0.1.0"
+description = "Pre-commit hook that fails when code changes are staged without documentation updates"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+doc-check = "docprompt.hook:main"
+
+[dependency-groups]
+dev = ["pytest>=7"]

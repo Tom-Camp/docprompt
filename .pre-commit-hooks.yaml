@@ -1,0 +1,7 @@
+- id: doc-check
+  name: Documentation check
+  description: Fails when code changes are staged without corresponding documentation updates
+  entry: doc-check
+  language: python
+  pass_filenames: false
+  always_run: false
